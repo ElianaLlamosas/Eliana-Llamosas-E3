@@ -52,7 +52,7 @@ body{
     background-color: #6da18b;
 }
 .primer-section {
-    max-width: 1200px;
+    max-width: 1700px;
     padding: 70px;
     margin: 80px;
     display: flex;
@@ -72,11 +72,11 @@ body{
 
 
 .slogan{
-    font-size: 32px;
+    font-size: 42px;
 }
 
 .texto-slogan{
-    font-size: 20px;
+    font-size: 36px;
 }
 
 .botones button{
@@ -92,7 +92,7 @@ body{
 }
 
 .segunda-section p{
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0px 80px;
     font-size: 28px;
     font-weight: 400;
@@ -103,4 +103,91 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.tercera-section{
+    max-width: 1700px;
+    padding: 70px;
+    margin: 80px;
+    background-color: #97b8aa;
+}
+
+.tercera-section h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #2e5c49;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+
+.info-iconos img{
+    max-height: 100px;
+}
+
+.info-contenedor-iconos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-iconos{
+    width: 300px;
+    height: 300px;
+    padding: 50x 30px;
+}
+
+.info-iconos h3{
+    font-size: 26px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+.info-iconos p{
+    font-size: 18px;
+}
+
+footer img{
+    max-height: 200px;
+}
+
+footer{
+    max-width: 1700px;
+    padding: 10px;
+    margin: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-footer h2{
+    font-size: 46px;
+    padding-bottom: 40px;
+    color: #2e5c49;
+    
+}
+
+
+.datos-contacto-footer h3{
+    font-size: 36px;
+    color: #2e5c49;
+}
+
+.footer-list{
+    font-size: 20px;
+    color: #2e5c49;
+    list-style: none;
+}
+
+.contenedor-footer{
+    margin: 30px;
+    padding: 30px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
